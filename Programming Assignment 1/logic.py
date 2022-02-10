@@ -203,7 +203,7 @@ class _Or(BinConn):
         return (b1 or b2, m2)
 
     def __str__(self):
-        return "{} ∨ {}",format(str(self.left), str(self.right))
+        return "{} ∨ {}".format(str(self.left), str(self.right))
 
 
 class _Implies(BinConn): 
